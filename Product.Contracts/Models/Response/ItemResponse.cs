@@ -6,10 +6,9 @@ namespace Product.Contracts.Models.Response
 {
     public class ItemResponse
     {
-        public string CategoryName;
-        public string SubCategoryName;
-        public string ItemName;
-        public string ItemDescription;
-
+        public string CategoryName { get; set; }
+        public string SubCategoryName { get; set; }
+        public string ItemName { get; set; }
+        public string ItemDescription { get; set; }
     }
 }

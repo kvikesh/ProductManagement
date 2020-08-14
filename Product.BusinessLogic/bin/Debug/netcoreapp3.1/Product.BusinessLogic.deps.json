@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Product.BusinessLogic/1.0.0": {
+        "dependencies": {
+          "Product.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Product.BusinessLogic.dll": {}
+        }
+      },
+      "Product.Contracts/1.0.0": {
+        "runtime": {
+          "Product.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Product.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Product.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

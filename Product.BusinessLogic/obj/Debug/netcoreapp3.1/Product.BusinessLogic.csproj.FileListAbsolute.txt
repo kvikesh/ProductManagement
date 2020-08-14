@@ -1,0 +1,12 @@
+D:\Personal\learn\Git_Project\Product.BusinessLogic\bin\Debug\netcoreapp3.1\Product.BusinessLogic.deps.json
+D:\Personal\learn\Git_Project\Product.BusinessLogic\bin\Debug\netcoreapp3.1\Product.BusinessLogic.dll
+D:\Personal\learn\Git_Project\Product.BusinessLogic\bin\Debug\netcoreapp3.1\Product.BusinessLogic.pdb
+D:\Personal\learn\Git_Project\Product.BusinessLogic\bin\Debug\netcoreapp3.1\Product.Contracts.dll
+D:\Personal\learn\Git_Project\Product.BusinessLogic\bin\Debug\netcoreapp3.1\Product.Contracts.pdb
+D:\Personal\learn\Git_Project\Product.BusinessLogic\obj\Debug\netcoreapp3.1\Product.BusinessLogic.csprojAssemblyReference.cache
+D:\Personal\learn\Git_Project\Product.BusinessLogic\obj\Debug\netcoreapp3.1\Product.BusinessLogic.AssemblyInfoInputs.cache
+D:\Personal\learn\Git_Project\Product.BusinessLogic\obj\Debug\netcoreapp3.1\Product.BusinessLogic.AssemblyInfo.cs
+D:\Personal\learn\Git_Project\Product.BusinessLogic\obj\Debug\netcoreapp3.1\Product.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Personal\learn\Git_Project\Product.BusinessLogic\obj\Debug\netcoreapp3.1\Product.BusinessLogic.csproj.CopyComplete
+D:\Personal\learn\Git_Project\Product.BusinessLogic\obj\Debug\netcoreapp3.1\Product.BusinessLogic.dll
+D:\Personal\learn\Git_Project\Product.BusinessLogic\obj\Debug\netcoreapp3.1\Product.BusinessLogic.pdb

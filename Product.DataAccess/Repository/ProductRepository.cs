@@ -1,4 +1,5 @@
-﻿using Product.Contracts.Interfaces.Repositories;
+﻿using Microsoft.EntityFrameworkCore;
+using Product.Contracts.Interfaces.Repositories;
 using Product.Contracts.Models;
 using Product.DataAccess.DBContext;
 using System.Collections.Generic;
@@ -15,9 +16,14 @@ namespace Product.DataAccess.Repository
 
         }
 
+        public IEnumerable<Item> GetProductItem(string name)
+        {
+            return _context.Item.Where(x=>x.Name == name).Include(x => x.SubCategory).Include(x => x.SubCategory.Category).ToList();
+        }
+
         public IEnumerable<Item> GetProductItem()
         {
-            return _context.Item.ToList();
+            return _context.Item.Include(x=>x.SubCategory).Include(x=>x.SubCategory.Category).ToList();
         }
 
         public void DeleteCategory(string name)

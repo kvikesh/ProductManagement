@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A6bRXZ5hvvhu7Uw/m6nBXFl7tL3hiUXKcdwbqI+2qjTHWeZR2aX89dLgKvdakdWv6paQpZWDO0hW5T+zvvrPjg==",
+  "dgSpecHash": "A6vGk5ytTVa8vHMoaicOaiMNw+KhnRb3df/cbdqWQ7v1MR5OdXZeTRzgWCY5eK1IPYcVvbrQFMvV539s8x5GrA==",
   "success": true,
-  "projectFilePath": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\Product.Contracts.csproj",
+  "projectFilePath": "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

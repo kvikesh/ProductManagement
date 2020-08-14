@@ -7,5 +7,6 @@ namespace Product.Contracts.Interfaces.Repositories
     {
         void DeleteCategory(string name);
         IEnumerable<Item> GetProductItem();
+        IEnumerable<Item> GetProductItem(string name);
     }
 }

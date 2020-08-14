@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\Product.Contracts.csproj",
+      "projectUniqueName": "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj",
       "projectName": "Product.Contracts",
-      "projectPath": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\Product.Contracts.csproj",
+      "projectPath": "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj",
       "packagesPath": "C:\\Users\\wf9010\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\obj\\",
+      "outputPath": "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

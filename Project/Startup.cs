@@ -11,7 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Product.BusinessLogic.Services;
 using Product.Contracts.Interfaces.Repositories;
+using Product.Contracts.Interfaces.Services;
 using Product.DataAccess.DBContext;
 using Product.DataAccess.Repository;
 using Product.WebAPI.Swagger;
@@ -31,6 +33,7 @@ namespace Project
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddDbContext<ProductDBContext>(c =>
                         c.UseSqlServer(_configuration.GetConnectionString("ProductDbConnection")));

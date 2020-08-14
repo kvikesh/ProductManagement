@@ -1,17 +1,76 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal\\learn\\ProductManagement\\Project\\Project\\Product.WebAPI.csproj": {}
+    "D:\\Personal\\learn\\Git_Project\\Project\\Product.WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\Product.Contracts.csproj": {
+    "D:\\Personal\\learn\\Git_Project\\Product.BusinessLogic\\Product.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\Product.Contracts.csproj",
-        "projectName": "Product.Contracts",
-        "projectPath": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\Product.Contracts.csproj",
+        "projectUniqueName": "D:\\Personal\\learn\\Git_Project\\Product.BusinessLogic\\Product.BusinessLogic.csproj",
+        "projectName": "Product.BusinessLogic",
+        "projectPath": "D:\\Personal\\learn\\Git_Project\\Product.BusinessLogic\\Product.BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\wf9010\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\obj\\",
+        "outputPath": "D:\\Personal\\learn\\Git_Project\\Product.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wf9010\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj": {
+                "projectPath": "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj",
+        "projectName": "Product.Contracts",
+        "projectPath": "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj",
+        "packagesPath": "C:\\Users\\wf9010\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -59,14 +118,14 @@
         }
       }
     },
-    "D:\\Personal\\learn\\ProductManagement\\Project\\Product.DataAccess\\Product.DataAccess.csproj": {
+    "D:\\Personal\\learn\\Git_Project\\Product.DataAccess\\Product.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.DataAccess\\Product.DataAccess.csproj",
+        "projectUniqueName": "D:\\Personal\\learn\\Git_Project\\Product.DataAccess\\Product.DataAccess.csproj",
         "projectName": "Product.DataAccess",
-        "projectPath": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.DataAccess\\Product.DataAccess.csproj",
+        "projectPath": "D:\\Personal\\learn\\Git_Project\\Product.DataAccess\\Product.DataAccess.csproj",
         "packagesPath": "C:\\Users\\wf9010\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.DataAccess\\obj\\",
+        "outputPath": "D:\\Personal\\learn\\Git_Project\\Product.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -85,8 +144,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\Product.Contracts.csproj": {
-                "projectPath": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\Product.Contracts.csproj"
+              "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj": {
+                "projectPath": "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj"
               }
             }
           }
@@ -134,14 +193,14 @@
         }
       }
     },
-    "D:\\Personal\\learn\\ProductManagement\\Project\\Project\\Product.WebAPI.csproj": {
+    "D:\\Personal\\learn\\Git_Project\\Project\\Product.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal\\learn\\ProductManagement\\Project\\Project\\Product.WebAPI.csproj",
+        "projectUniqueName": "D:\\Personal\\learn\\Git_Project\\Project\\Product.WebAPI.csproj",
         "projectName": "Product.WebAPI",
-        "projectPath": "D:\\Personal\\learn\\ProductManagement\\Project\\Project\\Product.WebAPI.csproj",
+        "projectPath": "D:\\Personal\\learn\\Git_Project\\Project\\Product.WebAPI.csproj",
         "packagesPath": "C:\\Users\\wf9010\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal\\learn\\ProductManagement\\Project\\Project\\obj\\",
+        "outputPath": "D:\\Personal\\learn\\Git_Project\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -160,11 +219,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\Product.Contracts.csproj": {
-                "projectPath": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.Contracts\\Product.Contracts.csproj"
+              "D:\\Personal\\learn\\Git_Project\\Product.BusinessLogic\\Product.BusinessLogic.csproj": {
+                "projectPath": "D:\\Personal\\learn\\Git_Project\\Product.BusinessLogic\\Product.BusinessLogic.csproj"
               },
-              "D:\\Personal\\learn\\ProductManagement\\Project\\Product.DataAccess\\Product.DataAccess.csproj": {
-                "projectPath": "D:\\Personal\\learn\\ProductManagement\\Project\\Product.DataAccess\\Product.DataAccess.csproj"
+              "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj": {
+                "projectPath": "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj"
+              },
+              "D:\\Personal\\learn\\Git_Project\\Product.DataAccess\\Product.DataAccess.csproj": {
+                "projectPath": "D:\\Personal\\learn\\Git_Project\\Product.DataAccess\\Product.DataAccess.csproj"
               }
             }
           }

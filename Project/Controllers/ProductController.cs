@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Product.Contracts.Interfaces.Repositories;
+using Product.Contracts.Interfaces.Services;
 using Product.Contracts.Models;
+using Product.Contracts.Models.Response;
 
 namespace Product.WebAPI.Controllers
 {
@@ -13,23 +15,35 @@ namespace Product.WebAPI.Controllers
     [Route("[controller]")]
     public class ProductController : ControllerBase
     {
-        private readonly IProductRepository _productRepository;
+        private readonly IProductService _productService;
 
-        public ProductController(IProductRepository productRepository)
+        public ProductController(IProductService productService)
         {
-            _productRepository = productRepository;
+            _productService = productService;
         }
+
+        /// <summary>
+        /// API to get item list by item name
+        /// </summary>
+        /// <param name="name">item name</param>
+        /// <returns>Item List as ItemResponse.</returns>
 
         [HttpGet]
-        public IEnumerable<Item> ItemsByName()
+        public List<ItemResponse> ItemsByName(string name)
         {
-            return this._productRepository.GetProductItem();
+            return this._productService.GetItemsByName(name);
         }
+
+        /// <summary>
+        /// API to delete Category by passing Category name
+        /// </summary>
+        /// <param name="name">Category name</param>
+        /// <returns>Ackowledgement</returns>
 
         [HttpDelete]
         public IActionResult Category(string name)
         {
-            this._productRepository.DeleteCategory(name);
+            this._productService.DeleteCategory(name);
             return Ok();
         }
     }
