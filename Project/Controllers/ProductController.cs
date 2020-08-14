@@ -29,6 +29,7 @@ namespace Product.WebAPI.Controllers
         /// <returns>Item List as ItemResponse.</returns>
 
         [HttpGet]
+        [Route("ItemsByName")]
         public List<ItemResponse> ItemsByName(string name)
         {
             return this._productService.GetItemsByName(name);
@@ -41,6 +42,7 @@ namespace Product.WebAPI.Controllers
         /// <returns>Ackowledgement</returns>
 
         [HttpDelete]
+        [Route("Category")]
         public IActionResult Category(string name)
         {
             this._productService.DeleteCategory(name);
