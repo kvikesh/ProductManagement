@@ -1,0 +1,9 @@
+D:\Personal\learn\ProductManagement\Project\Product.Contracts\bin\Debug\netcoreapp3.1\Product.Contracts.deps.json
+D:\Personal\learn\ProductManagement\Project\Product.Contracts\bin\Debug\netcoreapp3.1\Product.Contracts.dll
+D:\Personal\learn\ProductManagement\Project\Product.Contracts\bin\Debug\netcoreapp3.1\Product.Contracts.pdb
+D:\Personal\learn\ProductManagement\Project\Product.Contracts\obj\Debug\netcoreapp3.1\Product.Contracts.csprojAssemblyReference.cache
+D:\Personal\learn\ProductManagement\Project\Product.Contracts\obj\Debug\netcoreapp3.1\Product.Contracts.AssemblyInfoInputs.cache
+D:\Personal\learn\ProductManagement\Project\Product.Contracts\obj\Debug\netcoreapp3.1\Product.Contracts.AssemblyInfo.cs
+D:\Personal\learn\ProductManagement\Project\Product.Contracts\obj\Debug\netcoreapp3.1\Product.Contracts.csproj.CoreCompileInputs.cache
+D:\Personal\learn\ProductManagement\Project\Product.Contracts\obj\Debug\netcoreapp3.1\Product.Contracts.dll
+D:\Personal\learn\ProductManagement\Project\Product.Contracts\obj\Debug\netcoreapp3.1\Product.Contracts.pdb

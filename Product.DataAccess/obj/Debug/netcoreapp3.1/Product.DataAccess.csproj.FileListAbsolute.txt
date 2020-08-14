@@ -1,0 +1,15 @@
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\bin\Debug\netcoreapp3.1\Product.DataAccess.deps.json
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\bin\Debug\netcoreapp3.1\Product.DataAccess.dll
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\obj\Debug\netcoreapp3.1\Product.DataAccess.csprojAssemblyReference.cache
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\obj\Debug\netcoreapp3.1\Product.DataAccess.AssemblyInfoInputs.cache
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\obj\Debug\netcoreapp3.1\Product.DataAccess.AssemblyInfo.cs
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\bin\Debug\netcoreapp3.1\Product.DataAccess.runtimeconfig.json
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\bin\Debug\netcoreapp3.1\Product.DataAccess.runtimeconfig.dev.json
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\obj\Debug\netcoreapp3.1\Product.DataAccess.genruntimeconfig.cache
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\bin\Debug\netcoreapp3.1\Product.DataAccess.pdb
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\obj\Debug\netcoreapp3.1\Product.DataAccess.csproj.CoreCompileInputs.cache
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\obj\Debug\netcoreapp3.1\Product.DataAccess.dll
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\obj\Debug\netcoreapp3.1\Product.DataAccess.pdb
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\bin\Debug\netcoreapp3.1\Product.Contracts.dll
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\bin\Debug\netcoreapp3.1\Product.Contracts.pdb
+D:\Personal\learn\ProductManagement\Project\Product.DataAccess\obj\Debug\netcoreapp3.1\Product.DataAccess.csproj.CopyComplete
