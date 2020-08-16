@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Product.BusinessLogic.Services.CustomExceptions;
 using Product.Contracts.Interfaces.Repositories;
 using Product.Contracts.Models;
 using Product.DataAccess.DBContext;
@@ -16,22 +17,33 @@ namespace Product.DataAccess.Repository
 
         }
 
-        public IEnumerable<Item> GetProductItem(string name)
+        public IEnumerable<Item> GetProductItem(string name, int page, int recordSize)
         {
-            return _context.Item.Where(x=>x.Name == name).Include(x => x.SubCategory).Include(x => x.SubCategory.Category).ToList();
-        }
-
-        public IEnumerable<Item> GetProductItem()
-        {
-            return _context.Item.Include(x=>x.SubCategory).Include(x=>x.SubCategory.Category).ToList();
+            if (string.IsNullOrEmpty(name))
+            {
+                return _context.Item.Skip(page - 1).Take(recordSize).Include(x => x.SubCategory)
+                    .Include(x => x.SubCategory.Category)
+                    .ToList();
+            }
+            else
+            {
+                return _context.Item.Skip(page-1).Take(recordSize).Where(x => x.Name == name)
+                    .Include(x => x.SubCategory)
+                    .Include(x => x.SubCategory.Category)
+                    .ToList();
+            }
         }
 
         public void DeleteCategory(string name)
         {
             Category _itemToDelete = _context.Category.FirstOrDefault(x => x.Name == name);
-            if (_itemToDelete != null) {
+            if (_itemToDelete != null)
+            {
                 _context.Category.Remove(_itemToDelete);
                 _context.SaveChanges();
+            }
+            else {
+                throw new ItemNotFoundException();
             }
             return;
         }

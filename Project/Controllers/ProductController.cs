@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Product.Contracts.Interfaces.Repositories;
 using Product.Contracts.Interfaces.Services;
-using Product.Contracts.Models;
 using Product.Contracts.Models.Response;
 
 namespace Product.WebAPI.Controllers
@@ -30,9 +24,16 @@ namespace Product.WebAPI.Controllers
 
         [HttpGet]
         [Route("ItemsByName")]
-        public List<ItemResponse> ItemsByName(string name)
+        public List<ItemResponse> ItemsByName(string name, int page=1, int recordSize=10)
         {
-            return this._productService.GetItemsByName(name);
+            if (page == 0) {
+                page = 1;
+            }
+            if (recordSize == 0)
+            {
+                recordSize = 10;
+            }
+            return this._productService.GetItemsByName(name, page, recordSize);
         }
 
         /// <summary>
@@ -45,8 +46,15 @@ namespace Product.WebAPI.Controllers
         [Route("Category")]
         public IActionResult Category(string name)
         {
-            this._productService.DeleteCategory(name);
-            return Ok();
+            var result = this._productService.DeleteCategory(name);
+
+            if (result == "ItemNotFound")
+            {
+                return NotFound();
+            }
+            else {
+                return Ok();
+            }
         }
     }
 }

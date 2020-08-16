@@ -1,11 +1,10 @@
-﻿using Product.Contracts.Interfaces.Repositories;
+﻿using Product.BusinessLogic.Services.CustomExceptions;
+using Product.Contracts.Interfaces.Repositories;
 using Product.Contracts.Interfaces.Services;
 using Product.Contracts.Models;
 using Product.Contracts.Models.Response;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Product.BusinessLogic.Services
 {
@@ -19,17 +18,12 @@ namespace Product.BusinessLogic.Services
             }
         }
 
-        public List<ItemResponse> GetItemsByName(string name)
+        public List<ItemResponse> GetItemsByName(string name, int page, int recordSize)
         {
             try
             {
                 IEnumerable<Item> items;
-                if (String.IsNullOrEmpty(name)) {
-                    items = this._productRepository.GetProductItem();
-                }
-                else {
-                    items = this._productRepository.GetProductItem(name);
-                }
+                items = this._productRepository.GetProductItem(name, page, recordSize);
                 var listOfItemResponses =  ItemMapper(items);
                 return listOfItemResponses;
             }
@@ -39,17 +33,22 @@ namespace Product.BusinessLogic.Services
             }
         }
 
-        public void DeleteCategory(string name)
+        public string DeleteCategory(string name)
         {
             try
             {
                 this._productRepository.DeleteCategory(name);
-                return;
+                return "ItemRemoved";
+            }
+            catch (ItemNotFoundException ex)
+            {
+                //log exception
+                return "ItemNotFound";
             }
             catch (Exception ex)
             {
                 //log exception
-                return;
+                return "Exception";
             }
         }
 

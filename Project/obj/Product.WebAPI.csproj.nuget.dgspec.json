@@ -144,6 +144,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "D:\\Personal\\learn\\Git_Project\\Product.BusinessLogic\\Product.BusinessLogic.csproj": {
+                "projectPath": "D:\\Personal\\learn\\Git_Project\\Product.BusinessLogic\\Product.BusinessLogic.csproj"
+              },
               "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj": {
                 "projectPath": "D:\\Personal\\learn\\Git_Project\\Product.Contracts\\Product.Contracts.csproj"
               }

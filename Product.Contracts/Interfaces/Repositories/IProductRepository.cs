@@ -6,7 +6,6 @@ namespace Product.Contracts.Interfaces.Repositories
     public interface IProductRepository
     {
         void DeleteCategory(string name);
-        IEnumerable<Item> GetProductItem();
-        IEnumerable<Item> GetProductItem(string name);
+        IEnumerable<Item> GetProductItem(string name, int page, int recordSize);
     }
 }

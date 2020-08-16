@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Product.Contracts.Models.Response
 {
     public class ItemResponse
