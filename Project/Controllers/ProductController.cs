@@ -19,7 +19,7 @@ namespace Product.WebAPI.Controllers
         /// <summary>
         /// API to get item list by item name
         /// </summary>
-        /// <param name="name">item name</param>
+        /// <param name="name">item name, Page, RecordZie to fetch</param>
         /// <returns>Item List as ItemResponse.</returns>
 
         [HttpGet]
